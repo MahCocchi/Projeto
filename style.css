@@ -22,7 +22,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/moon-sun.svg);
-   --pos-rigth: 0;
+  --pos-rigth: 0;
   --pos-left: auto;
 }
 body {
@@ -62,6 +62,7 @@ body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+
 #profile p {
   font-weight: 500;
   line-height: 24px;
@@ -86,7 +87,7 @@ body * {
   top: 50%;
 }
 #switch span {
-  width:64px;
+  width: 64px;
   height: 24px;
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
